@@ -5,12 +5,29 @@ body {
     min-width: 491px;
 }
 
-input {
+label {
+    margin-bottom: 15px;
+}
+
+.input2 {
     width: 100%;
-    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     box-sizing: border-box;
     border: 1px solid #5f9341;
     margin-bottom: 4px;
+}
+
+fieldset{
+    margin-top: 8px;
+    padding-top:5px;
+    width: 95%;
+    display: inline;
+}
+
+#scale-chkbox{
+    margin-left: 5px;
+    margin-top: 3px;
 }
 
 button {
@@ -24,16 +41,6 @@ button {
 .delete {
     background: white;
     color: #5f9341;
-}
-
-ul {
-    margin-top: 20px;
-    list-style: none;
-    padding-left: 0;
-}
-
-li {
-    margin-top: 5px;
 }
 
 a {

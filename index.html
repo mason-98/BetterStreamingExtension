@@ -3,15 +3,19 @@
         <link rel="stylesheet" href="index.css">
     </head>
     <body>
-        <input type="range" min="0" max="3" value="1" id="range-input-el" step="0.01">
-        <input type="number" id="num-input-el" min="0" max="3" value="1" step="0.01">
+        <input type="range" class="input2" min="0" max="3" value="1" id="range-input-el" step="0.01">
+        <input type="number" class="input2" id="num-input-el" min="0" max="3" value="1" step="0.01">
+        <button id="ultrawide-btn">ULTRAWIDE</button>
         <button id="test-btn">TEST RATIO</button>
         <button id="save-btn">SAVE RATIO</button>
         <button id="load-btn">LOAD SAVE</button>
         <button id="delete-btn" class="delete">DELETE SAVE</button>
-        <button id="delete-all-btn" class="delete">DELETE ALL</button>
-        <ul id="ul-el">
-        </ul>
+        <fieldset>
+            <!-- <input type ="checkbox" id="fullScreen-chkbox" class="checkboxes" value="persistentFullScreen">
+            <label for="fullScreen-chkbox">Full Screen every Episode                 </label> -->
+            <input type ="checkbox" id="scale-chkbox" class="checkboxes" value="persistentScale">
+            <label for="scale-chkbox">Scale Screen every Episode</label>
+        </fieldset>
         <script src="index.js"></script>
     </body>
 </html>
